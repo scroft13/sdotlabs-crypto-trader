@@ -97,7 +97,7 @@ export default function UpdateProfile() {
               Leave blank to keep the same
             </FormHelperText>
           </FormControl>
-          <FormControl id="photo-update" fullWidth>
+          {/* <FormControl id="photo-update" fullWidth>
             <TextField
               label="URL to Link of Photo"
               aria-describedby="photo-helper-text"
@@ -108,7 +108,7 @@ export default function UpdateProfile() {
             <FormHelperText id="photo-helper-text">
               Leave blank to keep the same
             </FormHelperText>
-          </FormControl>
+          </FormControl> */}
 
           <Button disabled={loading} variant="contained" type="submit">
             Update

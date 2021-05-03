@@ -54,7 +54,7 @@ export default function Navbar() {
       <Toolbar>
         {brandComponent}
         {currentUser ? (
-          <Link to="/update-profile">
+          <Link to="/profile">
           <Avatar />
           </Link>
         ) : (
